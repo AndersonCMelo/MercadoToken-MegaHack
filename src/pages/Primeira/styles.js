@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   h1 {
     font-size: 20px;
@@ -12,7 +15,8 @@ export const Container = styled.div`
   }
 
   .error {
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     color: red;
   }
 `;
@@ -20,6 +24,8 @@ export const Container = styled.div`
 export const Topo = styled.div`
   display: flex;
   justify-content: center;
+
+  width: 100vw;
   background: #00B1EA;
   padding: 30px 0;
 
@@ -31,6 +37,8 @@ export const Topo = styled.div`
 export const Inputs = styled.form`
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   padding: 10px 20px;
 
   p {
