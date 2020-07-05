@@ -44,9 +44,12 @@ class Primeira extends Component {
           <img width={"150px"} src={this.state.file2}/>
           <input type="file" accept="image/*" capture="camera"  onChange={this.handleChangeFile2}/>
 
-          <Link to="/cvc">
-            <button>Enviar</button>
-          </Link>
+          <div className="buttonField">
+            <Link to="/cvc">
+              <button>Enviar</button>
+              <span> </span>
+            </Link>
+          </div>
         </Inputs>
       </Container>
     );

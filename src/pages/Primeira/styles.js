@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #EEEEEE;
-  height: 100vh;
 
   h1 {
     font-size: 20px;
@@ -27,7 +26,6 @@ export const Topo = styled.div`
 export const Inputs = styled.form`
   display: flex;
   flex-direction: column;
-
   padding: 10px 20px;
 
   p {
@@ -46,8 +44,13 @@ export const Inputs = styled.form`
     }
   }
 
+  .buttonField {
+    display: flex;
+    justify-content: center;
+  }
+
   button {
-    margin: 30px auto 0;
+    margin: 30px auto 120px;
     
     width: 300px;
     height: 51px;

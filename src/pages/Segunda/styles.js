@@ -54,6 +54,11 @@ export const Inputs = styled.form`
     }
   }
 
+  .buttonField {
+    display: flex;
+    justify-content: center;
+  }
+
   button {
     margin: 30px auto 0;
     
