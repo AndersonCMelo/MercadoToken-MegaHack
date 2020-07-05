@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #EEEEEE;
-  height: 100vh;
 
   h1 {
     font-size: 20px;
@@ -18,6 +17,11 @@ export const Container = styled.div`
     font-weight: 400;
     color: #333;
     text-align: center;
+  }
+
+  .error {
+    margin-left: 20px;
+    color: red;
   }
 `;
 
@@ -60,7 +64,7 @@ export const Inputs = styled.form`
   }
 
   button {
-    margin: 30px auto 0;
+    margin: 30px auto 40px;
     
     width: 300px;
     height: 51px;
@@ -68,5 +72,12 @@ export const Inputs = styled.form`
     color: #fff;
     border: none;
     border-radius: 5px;
+  }
+
+  .mt {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: 120px;
   }
 `;

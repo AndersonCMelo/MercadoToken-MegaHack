@@ -10,6 +10,11 @@ export const Container = styled.div`
     color: #333;
     text-align: center;
   }
+
+  .error {
+    margin-left: 20px;
+    color: red;
+  }
 `;
 
 export const Topo = styled.div`
@@ -50,7 +55,7 @@ export const Inputs = styled.form`
   }
 
   button {
-    margin: 30px auto 120px;
+    margin: 30px auto 40px;
     
     width: 300px;
     height: 51px;
@@ -58,5 +63,12 @@ export const Inputs = styled.form`
     color: #fff;
     border: none;
     border-radius: 5px;
+  }
+
+  .mt {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: 120px;
   }
 `;
