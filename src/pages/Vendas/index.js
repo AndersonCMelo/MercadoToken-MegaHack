@@ -28,7 +28,7 @@ class Vendas extends Component {
   }
   // On file upload (click the upload button)
   list () {
-    axios.get("http://api.mercadotokens.com.br/api/customer-orders")
+    axios.get("https://api.mercadotokens.com.br/api/customer-orders")
       .then((response) => {
         if (response.data.token_transaction !== "") {
           this.setState({list: response.data });

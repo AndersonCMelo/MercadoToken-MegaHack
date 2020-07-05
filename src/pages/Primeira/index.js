@@ -42,7 +42,7 @@ class Primeira extends Component {
         'content-type': 'multipart/form-data'
       }
     };
-    axios.post("http://api.mercadotokens.com.br/api/customer-orders/first-facematch",formData,config)
+    axios.post("https://api.mercadotokens.com.br/api/customer-orders/first-facematch",formData,config)
       .then((response) => {
         this.setState({erro: '' });
 
